@@ -7,7 +7,7 @@ import streamlit as st
 from PIL import Image
 from streamlit_drawable_canvas import st_canvas
 
-API_URL = "https://render-pr10.onrender.com/predict"
+API_URL = "https://backend-pr10.onrender.com/predict"
 CANVAS_SIZE = 280
 MAX_SEND_SIZE = 512  # уменьшаем перед отправкой, чтобы не гонять по сети лишний вес
 
